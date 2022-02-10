@@ -1,5 +1,5 @@
-/mnt/data/A1QAcourse/allureExample/allure-testng-example/src/test/java/my/company/Pages/Chrome.java
-/mnt/data/A1QAcourse/allureExample/allure-testng-example/src/test/java/my/company/utils/ReadConfig.java
-/mnt/data/A1QAcourse/allureExample/allure-testng-example/src/test/java/my/company/utils/ReadProperty.java
-/mnt/data/A1QAcourse/allureExample/allure-testng-example/src/test/java/my/company/SimpleTest.java
-/mnt/data/A1QAcourse/allureExample/allure-testng-example/src/test/java/my/company/Pages/LoginPage.java
+/mnt/data/A1QAcourse/allureEx/src/test/java/my/company/Pages/Chrome.java
+/mnt/data/A1QAcourse/allureEx/src/test/java/my/company/SimpleTest.java
+/mnt/data/A1QAcourse/allureEx/src/test/java/my/company/utils/ReadProperty.java
+/mnt/data/A1QAcourse/allureEx/src/test/java/my/company/utils/ReadConfig.java
+/mnt/data/A1QAcourse/allureEx/src/test/java/my/company/Pages/LoginPage.java

@@ -11,9 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-/**
- * @author baev (Dmitry Baev)
- */
+
 public class SimpleTest {
 WebDriver driver;
 
@@ -27,10 +25,9 @@ WebDriver driver;
     public void simpleTestOne() {
 String login_url = "https://opensource-demo.orangehrmlive.com/";
         driver.get(login_url);
-
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-        driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+        driver.findElement(By.id("txt")).sendKeys("Admin");
         driver.findElement(By.id("txtPassword")).sendKeys("admin123");
         System.out.println(driver.getTitle());
     }
