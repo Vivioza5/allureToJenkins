@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-10T21:00:55 EET" name="Surefire suite" finished-at="2022-02-10T21:01:05 EET" duration-ms="10719">
+    <groups>
+    </groups>
+    <test started-at="2022-02-10T21:00:55 EET" name="Surefire test" finished-at="2022-02-10T21:01:05 EET" duration-ms="10719">
+      <class name="my.company.SimpleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:my.company.SimpleTest@64711bf2]" started-at="2022-02-10T21:00:55 EET" name="setUp" finished-at="2022-02-10T21:01:02 EET" duration-ms="7379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="simpleTestOne()[pri:0, instance:my.company.SimpleTest@64711bf2]" started-at="2022-02-10T21:01:02 EET" name="simpleTestOne" finished-at="2022-02-10T21:01:05 EET" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleTestOne -->
+        <test-method signature="simpleTestTwo()[pri:0, instance:my.company.SimpleTest@64711bf2]" started-at="2022-02-10T21:01:05 EET" name="simpleTestTwo" finished-at="2022-02-10T21:01:05 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleTestTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:my.company.SimpleTest@64711bf2]" started-at="2022-02-10T21:01:05 EET" name="tearDown" finished-at="2022-02-10T21:01:05 EET" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- my.company.SimpleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
