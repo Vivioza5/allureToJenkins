@@ -9,12 +9,13 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+
 public class LoginPage {
     WebDriver driver;
 
     @BeforeTest
     public void setUp() throws IOException {
-        driver = Chrome.getInstanceOfChrome();
+        driver = Driver.getInstanceOfBrowser();
     }
 
     @Test
