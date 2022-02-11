@@ -1,7 +1,7 @@
 ### Java template
 .idea/
 .idea/workspace.xml
-/target/
+
 # Compiled class file
 *.class
 
@@ -14,3 +14,6 @@
 *.tar.gz
 *.rar
 *.iml
+/hs_err_pid73665.log
+/hs_err_pid74505.log
+/target/
