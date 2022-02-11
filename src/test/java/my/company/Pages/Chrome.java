@@ -18,6 +18,7 @@ private static WebDriver instanceOfChrome = null;
     private static ChromeOptions setOptions() throws IOException {
         int width = Integer.parseInt(ReadConfig.get("width"));
         int height = Integer.parseInt(ReadConfig.get("height"));
+        chromeOptions.addArguments("--disable-notifications");
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.EAGER);
         chromeOptions.addArguments("--window-size=" +  width+ "," + height);
         return chromeOptions;
