@@ -35,7 +35,7 @@ public class LoginPage {
                 "enableVideo", true
         ));
         RemoteWebDriver driver = new RemoteWebDriver(
-                URI.create("http://0.0.0.0:4444/wd/hub").toURL(),
+                URI.create("http://selenoid/chrome:98.0:4444/wd/hub").toURL(),
                 capabilities
         );
 
